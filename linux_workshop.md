@@ -6,22 +6,46 @@ a
 # What is WSL
 a
 
---- 
+---
 
 # Installing WSL
 
-a
+- Open Windows Terminal
+- Type `wsl --install`
+- After installation has completed, reboot
+- A prompt for username and password will be shown
+- Enter any username and password
 
 ---
 
 # Basic Linux Commands
 - ls
 - cd
-- du
-- touch
+
 - echo
 - cat
-- pwd
+
+---
+
+# Piping and I/O Redirection
+
+---
+
+# Accessing Windows Filesystem
+
+`cd /mnt/c`
+
+---
+
+# Basic Regex
+
+---
+
+# grep
+
+---
+
+# sed
 
 ---
 
