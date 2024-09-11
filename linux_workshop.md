@@ -52,3 +52,4 @@ a
 # Aftab
 - vi
 - bare metal linux install
+- some regex examples you want us to cover  (email, phone number)
