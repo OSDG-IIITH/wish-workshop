@@ -130,6 +130,19 @@ A command is an instruction to the shell, that executes the program given by *na
 - **Error Redirection (`2>`):** Redirects error messages to a file.
 - **Piping (`|`):** Passes output from one command directly as input to another command.
 
+---
+
+# `apt` package manager
+
+**`apt`** is used for package management on Debian-based systems.
+
+## Most commonly used sub-commands
+
+- **Upgrading all packages**: `sudo apt update` and `sudo apt upgrade`
+- **Install package**: `sudo apt install {package_names}`
+- **Remove package**: `sudo apt remove {package_names}`
+- **Search packages**: `apt search {search_term}`
+- **Auto-remove unneeded packages**: `sudo apt autoremove`
 
 ---
 
