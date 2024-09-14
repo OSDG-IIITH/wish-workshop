@@ -4,17 +4,58 @@ author: OSDG @ IIIT-H
 date: 14th September, 2024
 ---
 
-# What is Linux
+# Installing WSL on Windows
 
-Linux a family of open-source operating systems.​
+- Open Windows Terminal.
+- Type `wsl --install` and wait for it to run.
+- After installation has completed, it will prompt you for a reboot, wait at that point.
 
-## Linux Distros
+---
 
-Linux distributions (distros) are various versions of the Linux operating system, each customized with different software, features, and user interfaces to meet specific needs or preferences.
+# About Us
 
+- Presenters: Ankith Pai, Praneeth Jain and Abhiram Tilak
+- 3rd year students at IIIT-H
+- Members of the Open Source Developers Group (OSDG) student club.
+
+---
+
+# What is Unix?
+
+- **Unix** is a powerful, multiuser, multitasking operating system.
+- Developed in the 1960s and 70s.
+- Known for its stability, security, and efficiency.
+
+---
+
+# What is GNU/Linux?
+
+## What is GNU?
+
+- **GNU** stands for "GNU's Not Unix".
+- A free software operating system that is Unix-compatible.
+- Includes tools and utilities to provide a complete operating environment.
+
+## What is Linux?
+
+- A kernel created by Linus Torvalds in 1991.
+- Acts as an intermediary between hardware and user applications.
+- Manages hardware resources, system calls, and hardware drivers.
+- The term **"Linux"** often refers to the complete system of GNU+Linux
+
+---
+
+# Linux Distros
+
+Linux distributions (distros) are various versions of GNU/Linux, each customized with different software, features, and user interfaces to meet specific needs or preferences.
+
+- **Debian**: A versatile and stable distribution used as the base for many other distros, including Ubuntu.
 - **Ubuntu:** User-friendly, suitable for beginners.
+- **Linux Mint**: An Ubuntu-based distribution that focuses on providing a familiar and user-friendly desktop experience.
 - **Fedora:** Cutting-edge features, community-driven.
 - **Arch Linux:** Highly customizable, for advanced users.
+- **Manjaro**: A user-friendly derivative of Arch Linux that provides a more accessible experience with pre-configured environments.
+- **Alpine Linux**: A lightweight and security-oriented distribution often used in container environments.
 
 ---
 
@@ -33,16 +74,6 @@ Linux distributions (distros) are various versions of the Linux operating system
 
 ---
 
-# Installing WSL
-
-- Open Windows Terminal
-- Type `wsl --install`
-- After installation has completed, reboot
-- A prompt for username and password will be shown
-- Enter any username and password (remember them!)
-
----
-
 # Terminal and Shell Basics
 
 A shell is a command interpreter that processes user commands. It provides an interface between the user and the operating system.
@@ -56,6 +87,14 @@ A command is an instruction to the shell, that executes the program given by *na
 - **Cursor Control**: Use `←` and `→` arrow keys to move the cursor within a command.
 - **Command History**: Use the `↑` and `↓` arrow keys to scroll through previous commands.
 - **Autocompletion**: Press `Tab` to auto-complete.
+
+---
+
+# Installing WSL on Windows (continued)
+
+- Reboot your system.
+- A prompt for username and password will be shown
+- Enter any username and password (remember them!)
 
 ---
 
