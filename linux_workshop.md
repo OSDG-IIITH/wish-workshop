@@ -238,6 +238,17 @@ sed '1,5d' file.txt
 
 ---
 
+## Additional Resources on Regex
+
+Regex is not something you can learn in a single day, and it is common
+to forget some of the specifics. Our tutorial was just an introduction,
+I would recommend following through a detailed playlist.
+
+
+- [The Coding Train](https://youtube.com/playlist?list=PLGyavLZl7i6NLY1aWdd-ouJ0wk13cADvQ): This is a good playlist to get started, it contains anywhere from beginner to advanced regex. Also goes over the turing-completeness of regex.
+
+---
+
 ## Vi
 
 Vi whose full form stands for 'Visual' is a very basic "screen-based" text editor
