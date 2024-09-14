@@ -1,0 +1,10 @@
+2023-03-15 08:30:45 INFO Server started on port 8080
+2023-03-15 08:31:12 DEBUG Received request from 192.168.1.105
+2023-03-15 08:31:15 INFO Successfully processed GET request for /index.html
+2023-03-15 08:32:01 WARNING Failed login attempt for user admin@example.com
+2023-03-15 08:32:30 ERROR Database connection timeout after 30 seconds
+2023-03-15 08:33:05 INFO User john.doe@company.com logged in successfully
+2023-03-15 08:33:45 DEBUG Processed 50 items in 2.5 seconds
+2023-03-15 08:34:20 INFO Completed daily backup, 1.2GB data transferred
+2023-03-15 08:35:00 WARNING Low disk space: 85% used
+2023-03-15 08:35:30 INFO Received update request from mobile app v2.1
