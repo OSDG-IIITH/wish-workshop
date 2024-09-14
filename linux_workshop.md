@@ -43,6 +43,22 @@ Linux distributions (distros) are various versions of the Linux operating system
 
 ---
 
+# Terminal and Shell Basics
+
+A shell is a command interpreter that processes user commands. It provides an interface between the user and the operating system.
+
+## Command
+
+A command is an instruction to the shell, that executes the program given by *name* with 0 or more *arguments*.
+
+## Useful shell tips
+
+- **Cursor Control**: Use `←` and `→` arrow keys to move the cursor within a command.
+- **Command History**: Use the `↑` and `↓` arrow keys to scroll through previous commands.
+- **Autocompletion**: Press `Tab` to auto-complete.
+
+---
+
 # Basic Linux Commands
 
 - **`pwd`:** Prints the current working directory's absolute path.
@@ -54,6 +70,7 @@ Linux distributions (distros) are various versions of the Linux operating system
 - **`cp`:** Copy a file from one path to another.
 - **`mv`:** Move a file from one path to another.
 - **`rm`:** Remove a file at a given path.
+- **`sudo`:** Execute a command as another user, typically root.
 
 ---
 
