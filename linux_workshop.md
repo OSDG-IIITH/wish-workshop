@@ -238,4 +238,56 @@ sed '1,5d' file.txt
 
 ---
 
-# vi
+## Vi
+
+Vi whose full form stands for 'Visual' is a very basic "screen-based" text editor
+originally invented for the Unix Operating system.
+
+### Some Brief History (Source: [wikipedia](https://en.wikipedia.org/wiki/Vi_(text_editor)))
+
+The original code for vi was written by Bill Joy in 1976 as the visual mode for the ex 
+line editor that Joy had written with Chuck Haley. Joy's ex 1.1 (popular text editr at time) 
+was released as part of the first BSD Unix. 
+
+Vi's success sparked the development of similar which ended up being updated versions of 
+Vi called "ViM" and "NeoVim" etc, which is the most widely used text editor in UNIX based
+systems at 36% popularity.
+
+---
+
+### How to exit Vi
+
+There are two methods to exit Vi:
+
+- The most common method to exit is to just use the "command mode" and type the command `:q`
+- Another common way to exit is to just type `Shift + Z + Q` when in "normal mode".
+
+### Install Vi in Linux
+
+Most Distributions of Linux ship with Vim by default, if not you can always install
+it from the main repos.
+
+For instance, in Ubuntu-based distributions:
+```
+$ sudo apt install vim
+```
+
+### ViM Tutor
+
+ViM is not something that can be learn or taught overnight, it requires a lot of 
+practice and there are a so many key combinations that even we as daily users tend
+to forget. 
+
+Modern ViM comes pre-installed with a "tutor" program which we can launch after installing
+vim with command:
+```
+$ vimtutor
+```
+
+
+
+
+
+
+
+
