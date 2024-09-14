@@ -92,14 +92,88 @@ A command is an instruction to the shell, that executes the program given by *na
 ---
 
 # Basic Regex
+Regex, short for Regular Expression, is a powerful tool for pattern matching and text manipulation. It allows you to:
+
+- Search for specific patterns in text
+- Validate input formats (e.g., email addresses, phone numbers)
+- Extract information from strings
+- Replace or modify text based on patterns
 
 ---
 
-# grep
+# Practice Regex
+- https://regexr.com/
+- https://regexone.com/
+
+# Basic Patterns:
+- `.` - Any character
+- `^` - Start of line
+- `$` - End of line
+- `*` - Zero or more occurrences
+- `+` - One or more occurrences
+- `?` - Zero or one occurrence
+- `[abc]` - Any of a, b, or c
+- `[^abc]` - Not a, b, or c
+- `\d` - Digit
+- `\w` - Word character (letter, digit, underscore)
+- `\s` - Whitespace
 
 ---
 
-# sed
+# Examples:
+- `^hello` - Lines starting with "hello"
+- `world$` - Lines ending with "world"
+- `a[bcd]+` - "a" followed by one or more b, c, or d
+- `\d{3}-\d{3}-\d{4}` - US phone number format
+
+---
+
+# Grep
+
+Grep searches for patterns in files or input.
+
+## Basic Usage:
+```
+grep [options] pattern [file...]
+```
+
+# Common Options:
+- `-i`: Case-insensitive search
+- `-v`: Invert match (show non-matching lines)
+- `-r`: Recursive search in directories
+- `-n`: Show line numbers
+
+---
+
+# Examples:
+```bash
+grep "error" log.txt
+grep -i "warning" *.log
+grep -r "TODO" .
+```
+---
+
+# Sed
+
+Sed is a stream editor for filtering and transforming text.
+
+## Basic Usage:
+```
+sed [options] 'command' [file...]
+```
+
+## Common Commands:
+- `s/pattern/replacement/`: Substitute
+- `d`: Delete line
+- `p`: Print line
+
+---
+
+# Examples:
+```bash
+sed 's/old/new/' file.txt
+sed '1,5d' file.txt
+```
 
 ---
 
