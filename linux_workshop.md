@@ -1,7 +1,7 @@
 ---
 title: Introduction to Linux
-author: OSDG
-date: September 2024
+author: OSDG @ IIIT-H
+date: 14th September, 2024
 ---
 
 # What is Linux
@@ -45,10 +45,15 @@ Linux distributions (distros) are various versions of the Linux operating system
 
 # Basic Linux Commands
 
+- **`pwd`:** Prints the current working directory's absolute path.
 - **`ls`:** Lists the contents of a directory.
 - **`cd`:** Changes the current working directory.
 - **`echo`:** Displays a line of text or variable value to the terminal.
 - **`cat`:** Concatenates and displays the content of files.
+- **`mkdir`:** Creates a new directory with the specified name.
+- **`cp`:** Copy a file from one path to another.
+- **`mv`:** Move a file from one path to another.
+- **`rm`:** Remove a file at a given path.
 
 ---
 
@@ -81,9 +86,4 @@ Linux distributions (distros) are various versions of the Linux operating system
 
 ---
 
-# Aftab sir
-- vi
-- bare metal linux install
-- some regex examples you want us to cover  (email, phone number)
-- more advanced bash scripting (variables etc)
-- do they know programming and how much
+# vi
