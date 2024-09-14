@@ -12,11 +12,20 @@ date: 14th September, 2024
 
 ---
 
-# About Us
+# About the session
+
+## About Us
 
 - Presenters: Ankith Pai, Praneeth Jain and Abhiram Tilak
-- 3rd year students at IIIT-H
-- Members of the Open Source Developers Group (OSDG) student club.
+- 3rd year students at IIIT-H and members of the Open Source Developers Group (OSDG) student club.
+
+## Agenda
+
+- Install WSL on Windows.
+- Learn more about what Linux and related softwares are.
+- Cover basic `bash` scripting.
+- Introduce Regular Expressions (`regex`).
+- Dive into `vi`/`vim` editor.
 
 ---
 
