@@ -152,6 +152,15 @@ A command is an instruction to the shell, that executes the program given by *na
 
 ---
 
+## Additional resources on Scripting
+
+This was a tutorial for one of my courses named ISS, [Here's](https://github.com/abhiramtilakiiit/test-tutorial) the link for it.
+
+This is obviously way more required than what was taught in the session, but there is a document called "Tutorial-1.pdf" which
+contains information about everything you might need.
+
+---
+
 # Basic Regex
 Regex, short for Regular Expression, is a powerful tool for pattern matching and text manipulation. It allows you to:
 
