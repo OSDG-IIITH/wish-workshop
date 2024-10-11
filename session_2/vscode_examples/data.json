@@ -1,0 +1,52 @@
+[
+    {
+        "name": "John Doe",
+        "birthday": "12.05.1990",
+        "phone": "+91 98765 43210"
+    },
+    {
+        "name": "Jane Smith",
+        "birthday": "04/12/1985",
+        "phone": "+91 8765432109"
+    },
+    {
+        "name": "Alice Johnson",
+        "birthday": "15-03-1978",
+        "phone": "+917654321098"
+    },
+    {
+        "name": "Bob Brown",
+        "birthday": "25.08.1982",
+        "phone": "65432 10987"
+    },
+    {
+        "name": "Charlie Davis",
+        "birthday": "18-06-1990",
+        "phone": "5432109876"
+    },
+    {
+        "name": "Diana Wilson",
+        "birthday": "01/01/1995",
+        "phone": "10987 65432"
+    },
+    {
+        "name": "Edward Miller",
+        "birthday": "20-02-1979",
+        "phone": "53452 67341"
+    },
+    {
+        "name": "Fiona Taylor",
+        "birthday": "15/04/2001",
+        "phone": "+914321098765"
+    },
+    {
+        "name": "George Anderson",
+        "birthday": "09-09-1965",
+        "phone": "+91 3210987654"
+    },
+    {
+        "name": "Hannah Thomas",
+        "birthday": "31.10.1912",
+        "phone": "+91 90123 45678"
+    }
+]
