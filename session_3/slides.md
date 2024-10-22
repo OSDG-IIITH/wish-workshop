@@ -1,7 +1,7 @@
 ---
-title: Bash Scripting Continued
 author: OSDG @ IIIT-H
 date: 18th October, 2024
+title: Bash Scripting Continued
 ---
 
 # Session agenda
@@ -16,10 +16,11 @@ date: 18th October, 2024
 
 # Variables
 
-- **Definition**: A way to store data that can be referenced and manipulated.
+- **Definition**: A way to store data that can be referenced and
+  manipulated.
 - **Syntax**:
 
-```bash
+``` bash
 VAR_NAME="value"
 echo $VAR_NAME
 ```
@@ -30,69 +31,81 @@ echo $VAR_NAME
 
 - **Purpose**: To explicitly refer to the value of a variable.
 - **Example**:
-  ```bash
+  ``` bash
   name="Bash"
   echo "Hello, ${name}!"  # Output: Hello, Bash!
+  ```
 
 ---
 
 ## `()` - Command Grouping and Subshells
 
-- **Purpose**: 
-  - To group commands or create a subshell where variables and changes don't affect the parent shell.
-  
+- **Purpose**:
+
+  - To group commands or create a subshell where variables and changes
+    don't affect the parent shell.
+
 - **Example**:
-  ```bash
+
+  ``` bash
   (cd /tmp && echo "Now in /tmp")
   pwd  # Still in the original directory
+  ```
 
 ---
 
 ## `(())` - Arithmetic Expansion
 
-- **Purpose**: 
+- **Purpose**:
+
   - Used for performing arithmetic operations in Bash.
-  
+
 - **Example**:
-  ```bash
+
+  ``` bash
     num=5
     ((num++))
     echo $num  # Output: 6
-
+  ```
 
 ---
 
 ## `$(())` - Arithmetic Expansion
 
-- **Purpose**: 
+- **Purpose**:
+
   - Used to perform arithmetic operations and return the result.
-  
+
 - **Example**:
-  ```bash
+
+  ``` bash
     result=$((5 + 3))
     echo $result  # Output: 8
+  ```
 
 ---
 
 ## `$()` - Command Substitution
 
-- **Purpose**: 
-  - Used to capture the output of a command and use it as a value for a variable or in another command.
-  
+- **Purpose**:
+
+  - Used to capture the output of a command and use it as a value for a
+    variable or in another command.
+
 - **Example**:
-  ```bash
+
+  ``` bash
     current_dir=$(pwd)
     echo "You are in $current_dir"
+  ```
 
 ---
-
-
 
 # Conditionals
 
 - **Purpose**: To control the flow of the script using conditions.
 
-```bash
+``` bash
 if [ condition ]; then
     # commands
 elif [ condition ]; then
@@ -106,7 +119,7 @@ fi
 
 # Conditionals: Example 1
 
-```bash
+``` bash
 num=10
 if [ $num -gt 5 ]; then
     echo "Number is greater than 5"
@@ -123,7 +136,7 @@ fi
 
 # Conditionals: Example 2
 
-```bash
+``` bash
 name="Bash"
 if [ "$name" == "Bash" ]; then
     echo "This is Bash"
@@ -139,7 +152,7 @@ fi
 
 # Conditionals: Example 3
 
-```bash
+``` bash
 file="test.txt"
 if [ -f "$file" ]; then
     echo "$file exists"
@@ -148,15 +161,18 @@ else
 fi
 ```
 
-- `-f`: file exists and is a regular file. `-d`: file exists and is a directory
-- `-r`: file is readable. `-w`: file is writable. `-x`: file is executable
+- `-f`: file exists and is a regular file. `-d`: file exists and is a
+  directory
+- `-r`: file is readable. `-w`: file is writable. `-x`: file is
+  executable
 
 ---
 
 # Conditionals: Example 4
 
 - AND condition
-```bash
+
+``` bash
 num1=10
 num2=20
 if [ $num1 -lt 15 ] && [ $num2 -gt 15 ]; then
@@ -165,7 +181,8 @@ fi
 ```
 
 - OR condition
-```bash
+
+``` bash
 if [ $num1 -lt 5 ] || [ $num2 -gt 15 ]; then
     echo "At least one condition is true"
 fi
@@ -175,7 +192,7 @@ fi
 
 # Conditionals: Example 5
 
-```bash
+``` bash
 num=5
 if ! [ $num -gt 10 ]; then
     echo "Number is not greater than 10"
@@ -188,7 +205,7 @@ fi
 
 - **Definition**: To iterate over a list of items.
 
-```bash
+``` bash
 for item in list; do
     echo "Item $item"
 done
@@ -203,7 +220,7 @@ done
 
 - **Purpose**: Executes a block of code as long as a condition is true.
 
-```bash
+``` bash
 while [ condition ]; do
     # commands
 done
@@ -219,7 +236,8 @@ done
 # Arrays
 
 - **Purpose**: To store multiple values.
-```bash
+
+``` bash
 array=(value1 value2 value3)
 echo ${array[0]}
 arr=("apple" "banana" "cherry")
@@ -232,7 +250,7 @@ echo ${arr[1]}  # Output: banana
 
 - **Purpose**: To handle arguments passed to a script.
 
-```bash
+``` bash
 echo "First argument: $1"
 echo "Second argument: $2"
 ```
@@ -243,9 +261,28 @@ echo "Second argument: $2"
 
 - **Purpose**: To encapsulate and reuse code.
 
-```bash
+``` bash
 greet() {
     echo "Hello, $1!"
 }
 greet "Bash"
 ```
+
+---
+
+# Contact us
+
+If you have any doubts, or have to inform us something, please feel free
+to reach out to us through email:
+
+- Abhiram Tilak (<abhiram.potula@research.iiit.ac.in>)
+- Ankith Pai (<ankith.pai@research.iiit.ac.in>)
+- Praneeth Jain (<moida.praneeth@students.iiit.ac.in>)
+
+## Reference Material
+
+
+It is good to link to material which is much better and more organized:
+
+- Distrotube:
+  https://youtube.com/playlist?list=PL5--8gKSku174EnRTbP4DzU2W80Q1vqtm>

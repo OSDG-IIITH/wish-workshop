@@ -11,7 +11,7 @@ echo "b is: " $b
 # question 2
 echo "Question2:"
 
-[[ -f *.txt ]]
+[ -f *.txt ]
 echo "return val with * is: " $?
 
 [[ -f file.txt ]]
