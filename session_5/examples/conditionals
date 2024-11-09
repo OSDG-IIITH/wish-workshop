@@ -33,7 +33,7 @@ if not is_raining or has_umbrella:
 
 ##################################################################################
 
-## 4.  Pattern matching using match
+## 4. Pattern matching using match
 def get_http_status_message(status_code):
     match status_code:
         case 200:
@@ -49,8 +49,7 @@ def get_http_status_message(status_code):
 print(get_http_status_message(404))  # Output: Not Found
 
 
-#################################################################################################33
-
+###################################################################################################
 
 ## 5. Matching a tuple structure
 def identify_shape(shape):
@@ -66,3 +65,21 @@ def identify_shape(shape):
 print(identify_shape(('rectangle', 10, 5)))  # Output: Rectangle of width 10 and height 5
 print(identify_shape(('circle', 10, 5)))  # Output: Circle with two args (wrong)
 print(identify_shape(('circle', 3)))  # Output: Circle with radius 3
+
+####################################################################################################
+
+## 6. Lazy condition reading in python
+
+l = [1,2,3,4]
+
+# lazy and when false is read
+if len(l) > 4 and l[4] == 5:
+    print("The fifth element is 5")
+
+q = [1,2,3]
+if q and q[1] > 0:
+    print("Queue is not empty and has a non zero value")
+
+# lazy or when true is read
+if len(l) > 3 or l[4] == 5:
+    print("This didn't give an indexing error, length of list is greater than 3")
